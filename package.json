@@ -1,0 +1,26 @@
+{
+  "name": "@loxjs/express-client-ip",
+  "version": "2.0.0",
+  "main": "lib/index.js",
+  "author": "Zen Li",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src",
+    "build": "./node_modules/.bin/babel src -d lib",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
+    "@babel/preset-env": "7.4.4",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-html": "5.0.3",
+    "eslint-plugin-import": "2.17.2",
+    "husky": "3.0.0"
+  },
+  "peerDependencies": {}
+}

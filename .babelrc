@@ -1,0 +1,14 @@
+{
+    "ignore": [
+        "node_modules",
+        "lib"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-object-rest-spread"
+    ],
+    "presets": [
+        [
+            "@babel/preset-env"
+        ]
+    ]
+}
