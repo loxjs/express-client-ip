@@ -1,6 +1,6 @@
 npm run lint
 npm run build
-cp README.md lib
+cp README.md package.json lib
 cd lib
 
 current_registry=$(npm config get registry)
