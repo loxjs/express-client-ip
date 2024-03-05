@@ -4,6 +4,10 @@
   "main": "lib/index.js",
   "author": "Zen Li",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loxjs/express-client-ip.git"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/eslint src",
     "build": "./node_modules/.bin/babel src -d lib",
